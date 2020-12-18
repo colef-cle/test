@@ -8,6 +8,8 @@ import com.test.heritage.core.services.PositionServiceInterface;
 @Controller
 public class PositionController {
 
+	/*Commentaire de test*/
+
 	@Autowired
 	private PositionServiceInterface positionService;
 
