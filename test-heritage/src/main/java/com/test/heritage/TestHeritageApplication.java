@@ -45,6 +45,7 @@ public class TestHeritageApplication {
 		System.out.println( ss );
 
 		System.out.println( "aller test modif" );
+		System.out.println( "aller test modif encore encore" );
 
 		return 0;
 	}
