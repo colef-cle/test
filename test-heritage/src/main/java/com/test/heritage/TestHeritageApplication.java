@@ -44,7 +44,8 @@ public class TestHeritageApplication {
 		SpotState ss = new SpotState( 1, "blablabla", true, false, false );
 		System.out.println( ss );
 
-		System.out.println( "TETE a la con" );
+		System.out.println( "aller test modif" );
+		System.out.println( "aller test modif encore encore" );
 
 		return 0;
 	}
