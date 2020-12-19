@@ -17,7 +17,7 @@ public class TestHeritageApplication {
 
 	@Bean
 	public Integer getSpotStateController( SpotStateController controller ) {
-
+		System.out.println("Entering method getSporController");
 		Position position = new IndoorPosition();
 		position.setAlias( "new SDF In" );
 
