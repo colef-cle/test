@@ -17,9 +17,9 @@ public class TestHeritageApplication {
 
 	@Bean
 	public Integer getSpotStateController( SpotStateController controller ) {
-
+		System.out.println("NON DE DIEU");
 		Position position = new IndoorPosition();
-		// position.setId( 2 );
+		
 		position.setAlias( "new SDF In" );
 
 		OutdoorRepairSpotState ors = new OutdoorRepairSpotState(
