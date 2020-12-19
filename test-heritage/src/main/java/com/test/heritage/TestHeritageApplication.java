@@ -17,11 +17,19 @@ public class TestHeritageApplication {
 
 	@Bean
 	public Integer getSpotStateController( SpotStateController controller ) {
+<<<<<<< HEAD
 		System.out.println("NON DE DIEU");
+=======
 		System.out.println("Entering method getSporController");
+>>>>>>> refs/heads/master
 		Position position = new IndoorPosition();
+		
+<<<<<<< HEAD
+=======
 		System.out.println("tryout something");
+>>>>>>> refs/heads/master
 		position.setAlias( "new SDF In" );
+
 		OutdoorRepairSpotState ors = new OutdoorRepairSpotState(
 		        "ceci est une description de outdoor" // description
 		        , true// interValidation
