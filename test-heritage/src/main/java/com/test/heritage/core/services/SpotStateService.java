@@ -42,7 +42,6 @@ public class SpotStateService implements SpotStateServiceInterface {
 		if ( sst instanceof RepairSpotState ) {
 			RepairSpotState rss = (RepairSpotState) sst;
 			if ( rss.getPosition() != null ) {
-
 				/* Vérification que la position appliquée à la réparation est bien 
 				 * dans le même contexte que la réparation elle meme (indoor/outdoor)
 				 * Si non vérifié, lance une IllegalStateException
@@ -53,11 +52,9 @@ public class SpotStateService implements SpotStateServiceInterface {
 					        rss.getClass().getSimpleName() + " cannot be associated with an "
 					                + rss.getPosition().getClass().getSimpleName() );
 				}
-
 				if ( rss.getPosition().getId() == null ) {
 					positionRepository.save( rss.getPosition() );
 				}
-
 			}
 		}
 		return spotStateRepository.save( sst );
