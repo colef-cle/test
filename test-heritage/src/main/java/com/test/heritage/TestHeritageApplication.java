@@ -19,7 +19,6 @@ public class TestHeritageApplication {
 	public Integer getSpotStateController( SpotStateController controller ) {
 
 		Position position = new IndoorPosition();
-		// position.setId( 2 );
 		position.setAlias( "new SDF In" );
 
 		OutdoorRepairSpotState ors = new OutdoorRepairSpotState(
